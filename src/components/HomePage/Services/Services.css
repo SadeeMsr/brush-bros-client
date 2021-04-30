@@ -1,0 +1,35 @@
+.service-section{
+    padding-top: 70px;
+    background-color:#0D4C7A;
+    width:100%;
+    height:auto;
+}
+
+@media screen and (max-width: 425px) {
+    .service-section {
+        padding-top: 500px;
+    }
+  }
+
+.service-content{
+    text-align: center;
+    padding-top: 200px;
+    color:#082d47
+}
+
+.card-section{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 40px;
+    }
+  }
